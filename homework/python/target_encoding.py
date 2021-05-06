@@ -24,8 +24,10 @@ def target_mean(data, y_name, x_name):
 
 
 def main():
+    # 生成0或1，100000行1列的矩阵
     y = np.random.randint(2, size=(100000, 1))
     x = np.random.randint(2, size=(100000, 1))
+    # 转换成DataFrame
     data = pd.DataFrame(np.concatenate([y, x], axis=1), columns=['y', 'x'])
 
     target_mean(data, 'y', 'x')

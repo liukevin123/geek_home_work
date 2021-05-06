@@ -6,6 +6,7 @@ cimport pandas as pd
 
 cpdef target_mean(data,y_name,x_name):
     cdef long nrow = data.shape[0]
+    #处理输入的数据
     cdef np.ndarray[double] result = np.asfortranarray(np.zeros(nrow),dtype=np.float64)
     cdef np.ndarray[double] y = np.asfortranarray(np.zeros(y_name),dtype=np.float64)
     cdef np.ndarray[double] x = np.asfortranarray(np.zeros(x_name),dtype=np.float64)
