@@ -5,14 +5,14 @@ cimport numpy as np
 cpdef target_mean(data,y_name,x_name):
     cdef long nrow = data.shape[0]
     cdef np.ndarray[double] result = np.asfortranarray(np.zeros(nrow),dtype=np.float64)
-    cdef np.ndarray[int] y = np.asfortranarray(data[y_name],dtype=np.int32)
-    cdef np.ndarray[int] x = np.asfortranarray(data[x_name],dtype=np.int32)
+    cdef np.ndarray[double] y = np.asfortranarray(data[y_name],dtype=np.float64)
+    cdef np.ndarray[double] x = np.asfortranarray(data[x_name],dtype=np.float64)
 
     target_mean_impl(result, y, x, nrow)
     return result
 
 
-cdef void target_mean_impl(double[:] result, int[:] y, int[:] x, const long nrow):
+cdef void target_mean_impl(double[:] result, double[:] y, double[:] x, const long nrow):
     cdef dict value_dict = dict()
     cdef dict count_dict = dict()
 
