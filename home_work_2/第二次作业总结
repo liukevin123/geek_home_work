@@ -1,0 +1,44 @@
+1、调整数据的深度，最好的结果为树的深度为32
+The minimum is attained in round 406
+The minimum is attained in round 313
+The minimum is attained in round 290
+The minimum is attained in round 261
+The minimum is attained in round 266
+{'num_thread': 4, 'num_leaves': 32, 'metric': 'binary', 'objective': 'binary', 'num_round': 2000, 'learning_rate': 0.02, 'feature_fraction': 0.8, 'bagging_fraction': 0.8}
+0.08104
+The minimum is attained in round 349
+The minimum is attained in round 236
+The minimum is attained in round 304
+The minimum is attained in round 255
+The minimum is attained in round 245
+{'num_thread': 4, 'num_leaves': 48, 'metric': 'binary', 'objective': 'binary', 'num_round': 2000, 'learning_rate': 0.02, 'feature_fraction': 0.8, 'bagging_fraction': 0.8}
+0.08182
+The minimum is attained in round 363
+The minimum is attained in round 246
+The minimum is attained in round 288
+The minimum is attained in round 243
+The minimum is attained in round 241
+{'num_thread': 4, 'num_leaves': 64, 'metric': 'binary', 'objective': 'binary', 'num_round': 2000, 'learning_rate': 0.02, 'feature_fraction': 0.8, 'bagging_fraction': 0.8}
+0.08186000000000002
+The minimum is attained in round 345
+The minimum is attained in round 250
+The minimum is attained in round 282
+The minimum is attained in round 218
+The minimum is attained in round 238
+{'num_thread': 4, 'num_leaves': 80, 'metric': 'binary', 'objective': 'binary', 'num_round': 2000, 'learning_rate': 0.02, 'feature_fraction': 0.8, 'bagging_fraction': 0.8}
+0.08204
+The minimum is attained in round 335
+The minimum is attained in round 260
+The minimum is attained in round 239
+The minimum is attained in round 221
+The minimum is attained in round 229
+{'num_thread': 4, 'num_leaves': 96, 'metric': 'binary', 'objective': 'binary', 'num_round': 2000, 'learning_rate': 0.02, 'feature_fraction': 0.8, 'bagging_fraction': 0.8}
+0.08218
+The minimum is attained in round 273
+The minimum is attained in round 215
+The minimum is attained in round 258
+The minimum is attained in round 199
+The minimum is attained in round 233
+{'num_thread': 4, 'num_leaves': 127, 'metric': 'binary', 'objective': 'binary', 'num_round': 2000, 'learning_rate': 0.02, 'feature_fraction': 0.8, 'bagging_fraction': 0.8}
+0.08286000000000002
+
